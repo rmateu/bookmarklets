@@ -9,12 +9,11 @@ var url = document.URL;
 
 
 window.location.href = 'drafts5://create?'
-                        + 'text='
+                        + 'text=%20%23%23'
                         +  mdLink
-                        + '\n'
-                        + '------'
-                        + '\n'                        
+                        + '%0A'
+                        + '%0A'                        
                         + '> ' + text
-                        + '\n\n'
+                        + '%0A%0A'
                         + '&tag=5typos.net'
                         + '&tag=Snippet'

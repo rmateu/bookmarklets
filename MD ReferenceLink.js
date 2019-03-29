@@ -1,7 +1,5 @@
- var o = location.origin + location.pathname,
-            t = (document.title, location.host),
-            t = t.replace(/^www./, ""),
-            t = t.substring(0, 4);
-        text = window.getSelection().toString(), markdownLinkblog = "[" + t + "]: " + o + ' "' + document.title + '"', 
+var url = document.URL ;
+var title = document.title ;
+var description = $('meta[name=description]').attr("content") ;
 
-window.prompt("Copy to clipboard: ⌘+C or Ctrl+C then Enter", markdownLinkblog)
+window.prompt("Copy to clipboard: ⌘+C or Ctrl+C then Enter", description)

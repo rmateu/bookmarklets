@@ -21,3 +21,4 @@ window.location.href = 'bear://x-callback-url/create?'
                         + '%0A%0A'
                         + mdLink
                         + '&tags=5typos%2Fsnippet'
+                        + '&edit=yes'

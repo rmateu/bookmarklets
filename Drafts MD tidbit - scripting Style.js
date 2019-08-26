@@ -17,4 +17,4 @@ window.location.href = 'drafts5://prepend?uuid=981735F6-1304-4735-A679-4EB053337
                         + '%0A%0A'
                         + mdLink
                         + '&tag=5typos.net'
-                        + '&tag=tibits'
+                        + '&tag=tidbits'

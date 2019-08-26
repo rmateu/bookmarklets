@@ -6,11 +6,9 @@ var url = document.URL;
         t = location.host;
         t = t.replace(/^www./, "");
 	text = window.getSelection().toString();
-	tlmdRef = '[' + document.title + '][idk]';
-        mdSite = '%20[' + t + '][' + text + ']'
-        mdLink = '[' + text + ']:%20' + url + " \"" +document.title + "\"" +"%0A";
-        tkmdLink = '[idk]:%20' + url + " \"" +document.title + "\"" +"%0A";
-
+        idRef =  t.substring(0, 4) + Math.floor((Math.random() * 100) + 1);
+        mdSite = '%20[' + t + '][' + idRef + ']'
+        mdLink = '[' + idRef + ']:%20' + url + " \"" +document.title + "\"" +"%0A";
 
 window.location.href = 'drafts5://prepend?uuid=981735F6-1304-4735-A679-4EB05333763F&'
                         + 'text=-%20' 

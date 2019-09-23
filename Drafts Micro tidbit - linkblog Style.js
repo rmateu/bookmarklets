@@ -11,9 +11,9 @@ var url = document.URL;
         mdSite = '%20[' + t + '][' + idRef + ']'
         mdLink = '[' + idRef + ']:%20' + url + " \"" +document.title + "\"" +"%0A";
 
-window.location.href = 'drafts5://create?'
+window.location.href = 'drafts5://create?text='
                         + mdSelected
                         + '%0A%0A'
                         + mdLink
-                        + '&tag=5typos.net'
+                        + '&tag=microblog'
                         + '&tag=tidbits'

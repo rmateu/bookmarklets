@@ -11,7 +11,8 @@ var url = document.URL;
         mdSite = '%20[' + t + '][' + idRef + ']'
         mdLink = '[' + idRef + ']:%20' + url + " \"" +document.title + "\"" +"%0A";
 
-window.location.href = 'drafts5://create?'
+window.location.href = 'drafts5://prepend?uuid=981735F6-1304-4735-A679-4EB05333763F&'
+                        + 'text=-%20' 
                         + mdSelected
                         + '%0A%0A'
                         + mdLink

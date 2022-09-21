@@ -1,6 +1,7 @@
 // Reference drafts5://x-callback-url/create?text=Hello%20World
 // Note that the x-callback-url host is optional in all drafts5 URLs. It is supported for consistency with the specification, but functionally it is not required and drafts5://[actionName]... will have the same result as drafts5://x-callback-url/[actionName]...
 // Bookmarklet Maker: https://caiorss.github.io/bookmarklet-maker/
+// DO minify JavaScript https://www.digitalocean.com/community/tools/minify
 
 var url = document.URL;
         t = location.host;
